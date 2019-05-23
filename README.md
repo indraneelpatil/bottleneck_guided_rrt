@@ -1,5 +1,7 @@
 # Bottleneck Guided Rapidly Exploring Random Tree Star
 
+<img align="right" src='images/Flow chart 2(1).png' width='512px' />
+
 The aim is to solve the problem of no 'one size fits all' heuristic for different motion planning problems and the inherent 'narrow passage' problem for uniform sampling based planners. 
 
 The motion planner is implemented in C++ whereas the 3D CNN is implemented in Python using Tensorflow. The 3D CNN is a modified form of the [VoxNet](https://www.ri.cmu.edu/pub_files/2015/9/voxnet_maturana_scherer_iros15.pdf) architecture. 
