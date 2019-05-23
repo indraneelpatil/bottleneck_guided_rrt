@@ -17,6 +17,15 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
 * Since data was limited for our prediction task, we have used transfer learning from a pre trained VoxNet trained on the Sydney Urban Objects Dataset.
 * Our manually labelled dataset in the labelled dataset folder consists of 200 data samples collected using a 10% Goal Biased RRT* on different hand engineered environments.
 
+## RRT* Implementation Details 
+* [FCL](https://github.com/flexible-collision-library/fcl) : Collision Checking with environment
+* [Octomap](https://github.com/OctoMap/octomap) : Data Structure for the 3D Environment
+* [Mersenne Twister PRNG](https://github.com/cslarsen/mersenne-twister) : Sampling Random Points in Workspace of Manipulator
+* [OpenRAVE](https://github.com/rdiankov/openrave) :Kinematic Reachability Module used to find sampling domain of the planner.
+* [libNABO](https://github.com/ethz-asl/libnabo) :Library for nearest neighbour searches to find multiple parent candidates
+* [H5Easy](https://github.com/stevenwalton/H5Easy): To convert hdf5 file created by openrave using C++ vectors
+
+## References 
 
 
 
