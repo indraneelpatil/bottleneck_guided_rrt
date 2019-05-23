@@ -1,7 +1,7 @@
 # Bottleneck Guided Rapidly Exploring Random Tree Star
 
 <div align='right'>
-  <img src='images/Flow chart 2 (1).png' width='400px'>
+  <img src='images/Flow chart 2 (1).png' width='400px' align='right'>
 </div>
 
 
