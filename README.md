@@ -35,6 +35,11 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
   <img src='images/random exploration.png' width='800px' align='centre'>
 </div>
 
+## Performance of Bottleneck Guided RRT*
+<div align='centre'>
+  <img src='images/Intelligent Exploration.png' width='800px' align='centre'>
+</div>
+
 ## References 
 * [Execution Extended RRT](https://link.springer.com/content/pdf/10.1007/978-3-540-45135-8_23.pdf)
 * [Synchronized Greedy Biased RRT](https://link.springer.com/content/pdf/10.1007/s12555-011-0417-7.pdf)
