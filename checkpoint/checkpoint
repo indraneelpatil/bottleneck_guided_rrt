@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/indraneel/tf-demo/VoxNet/checkpoint/model.ckpt"
+all_model_checkpoint_paths: "/home/indraneel/tf-demo/VoxNet/checkpoint/model.ckpt"

@@ -1,0 +1,7 @@
+
+dataset=SydneyRoads
+run=CBDandRocks
+sensor=Velodyne
+format=bin
+binary=t,ub,ub,f,f,f,f,f,i
+fields=t,intensity,id,x,y,z,azimuth,range,pid

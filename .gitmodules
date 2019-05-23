@@ -1,0 +1,3 @@
+[submodule "3rdparty/python-pcl"]
+	path = 3rdparty/python-pcl
+	url = https://github.com/Durant35/python-pcl
