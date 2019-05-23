@@ -1,6 +1,9 @@
 # Bottleneck Guided Rapidly Exploring Random Tree Star
 
-<img align="right" src='images/Flow chart 2(1).png' width='512px' />
+<div align='right'>
+  <img src='images/Flow chart 2(1).png' width='512px'>
+</div>
+
 
 The aim is to solve the problem of no 'one size fits all' heuristic for different motion planning problems and the inherent 'narrow passage' problem for uniform sampling based planners. 
 
