@@ -1,0 +1,41 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+H5RW_H	H5Easy.h	35;"	d
+LoadH5	H5Easy.h	/^class LoadH5$/;"	c
+Proxy	H5Easy.h	/^            Proxy( const LoadH5* owner ) : myOwner( owner ) {}$/;"	f	class:LoadH5::Proxy
+Proxy	H5Easy.h	/^      class Proxy$/;"	c	class:LoadH5
+Requirements	documentation.tex	/^\\tableofcontents$/;"	s
+WriteH5	H5Easy.h	/^class WriteH5$/;"	c
+createGroup	H5Easy.h	/^void WriteH5::createGroup(std::string groupName)$/;"	f	class:WriteH5
+dim1	vecTest.cpp	9;"	d	file:
+dim2	vecTest.cpp	10;"	d	file:
+filename	H5Easy.h	/^      std::string filename;$/;"	m	class:LoadH5
+filename	H5Easy.h	/^      std::string filename;$/;"	m	class:WriteH5
+getData	H5Easy.h	/^      Proxy getData() const {return Proxy(this);}$/;"	f	class:LoadH5
+getData2Ddouble	H5Easy.h	/^std::vector<std::vector<double> > LoadH5::getData2Ddouble() const$/;"	f	class:LoadH5
+getData2Dfloat	H5Easy.h	/^std::vector<std::vector<float> > LoadH5::getData2Dfloat() const$/;"	f	class:LoadH5
+getData2Dint	H5Easy.h	/^std::vector<std::vector<int> > LoadH5::getData2Dint() const$/;"	f	class:LoadH5
+getDatadouble	H5Easy.h	/^std::vector<double> LoadH5::getDatadouble() const$/;"	f	class:LoadH5
+getDatafloat	H5Easy.h	/^std::vector<float> LoadH5::getDatafloat() const$/;"	f	class:LoadH5
+getDataint	H5Easy.h	/^std::vector<int> LoadH5::getDataint() const$/;"	f	class:LoadH5
+main	test.cpp	/^int main()$/;"	f
+main	vecTest.cpp	/^int main()$/;"	f
+myOwner	H5Easy.h	/^            LoadH5 const* myOwner;$/;"	m	class:LoadH5::Proxy
+operator std::vector<double>	H5Easy.h	/^            operator std::vector<double>() const$/;"	f	class:LoadH5::Proxy
+operator std::vector<float>	H5Easy.h	/^            operator std::vector<float>() const$/;"	f	class:LoadH5::Proxy
+operator std::vector<int>	H5Easy.h	/^            operator std::vector<int>() const$/;"	f	class:LoadH5::Proxy
+operator std::vector<std::vector<double> >	H5Easy.h	/^            operator std::vector<std::vector<double> >() const$/;"	f	class:LoadH5::Proxy
+operator std::vector<std::vector<float> >	H5Easy.h	/^            operator std::vector<std::vector<float> >() const$/;"	f	class:LoadH5::Proxy
+operator std::vector<std::vector<int> >	H5Easy.h	/^            operator std::vector<std::vector<int> >() const$/;"	f	class:LoadH5::Proxy
+setFileName	H5Easy.h	/^      void setFileName ( std::string name ) {filename = name;};$/;"	f	class:WriteH5
+setFileName	H5Easy.h	/^      void setFileName(std::string name) {filename = name;};$/;"	f	class:LoadH5
+setVarName	H5Easy.h	/^      void setVarName  ( std::string name ) {variable = name;};$/;"	f	class:WriteH5
+setVarName	H5Easy.h	/^      void setVarName(std::string name) {variable = name;};$/;"	f	class:LoadH5
+variable	H5Easy.h	/^      std::string variable;$/;"	m	class:LoadH5
+variable	H5Easy.h	/^      std::string variable;$/;"	m	class:WriteH5
+writeData	H5Easy.h	/^void WriteH5::writeData(std::vector<T> data)$/;"	f	class:WriteH5
+writeData	H5Easy.h	/^void WriteH5::writeData(std::vector<std::vector<T> > data)$/;"	f	class:WriteH5
