@@ -32,7 +32,7 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
 
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
-  <img src='images/random exploration.png' width='400px' align='centre'>
+  <img src='images/random exploration.png' width='800px' align='centre'>
 </div>
 
 ## References 
