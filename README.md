@@ -7,8 +7,8 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
 ### Modifications :
 
 * Multi Input Single Output CNN 
-  *1st Input : Voxelized Environment
-  *2nd Input : Start and End points selected by user in Rviz*
+  * 1st Input : Voxelized Environment
+  * 2nd Input : Start and End points selected by user in Rviz
   * Output : Relevant Bottleneck Points
 * No non linear activation units in the last layer since ours is a prediction task (not classification)
 
