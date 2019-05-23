@@ -30,6 +30,11 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
 * [libNABO](https://github.com/ethz-asl/libnabo) :Library for nearest neighbour searches to find multiple parent candidates
 * [H5Easy](https://github.com/stevenwalton/H5Easy): To convert hdf5 file created by openrave using C++ vectors
 
+## Comparison of traditional fixed heuristic RRT planners 
+<div align='centre'>
+  <img src='images/random exploration.png' width='400px' align='centre'>
+</div>
+
 ## References 
 * [Execution Extended RRT](https://link.springer.com/content/pdf/10.1007/978-3-540-45135-8_23.pdf)
 * [Synchronized Greedy Biased RRT](https://link.springer.com/content/pdf/10.1007/s12555-011-0417-7.pdf)
