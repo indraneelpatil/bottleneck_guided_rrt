@@ -17,6 +17,7 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
   * Output : Relevant Bottleneck Points
 * No non linear activation units in the last layer since ours is a prediction task (not classification)
 
+Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9mFheOY&feature=youtu.be
 ### Training :
 
 * Since data was limited for our prediction task, we have used transfer learning from a pre trained VoxNet trained on the Sydney Urban Objects Dataset.
