@@ -16,6 +16,7 @@ The motion planner is implemented in C++ whereas the 3D CNN is implemented in Py
   * 2nd Input : Start and End points selected by user in Rviz
   * Output : Relevant Bottleneck Points
 * No softmax non linearity in the last layer since ours is a prediction task (not classification)
+* 9 units in the last dense layer to predict 3 sets of x,y,z coordinates of relevant bottleneck points
 
 Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9mFheOY&feature=youtu.be
 ### Training :
