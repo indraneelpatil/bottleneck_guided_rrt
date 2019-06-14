@@ -31,6 +31,7 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 * [OpenRAVE](https://github.com/rdiankov/openrave) :Kinematic Reachability Module used to find sampling domain of the planner.
 * [libNABO](https://github.com/ethz-asl/libnabo) :Library for nearest neighbour searches to find multiple parent candidates
 * [H5Easy](https://github.com/stevenwalton/H5Easy): To convert hdf5 file created by openrave using C++ vectors
+* [ROS](https://github.com/ros): rviz visualization and sensor data acquisition
 
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
