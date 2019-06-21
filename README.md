@@ -32,6 +32,7 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 * [libNABO](https://github.com/ethz-asl/libnabo) :Library for nearest neighbour searches to find multiple parent candidates
 * [H5Easy](https://github.com/stevenwalton/H5Easy): To convert hdf5 file created by openrave using C++ vectors
 * [ROS](https://github.com/ros): rviz visualization and sensor data acquisition
+* [moveit cartesian plan plugin](https://github.com/ros-industrial-consortium/fermi/tree/hydro-devel): For taking user input for start and end points in 3D
 
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
