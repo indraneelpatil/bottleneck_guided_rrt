@@ -33,6 +33,7 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 * [H5Easy](https://github.com/stevenwalton/H5Easy): To convert hdf5 file created by openrave using C++ vectors
 * [ROS](https://github.com/ros): rviz visualization and sensor data acquisition
 * [moveit cartesian plan plugin](https://github.com/ros-industrial-consortium/fermi/tree/hydro-devel): For taking user input for 3D start and end points in rviz
+*  [abb_driver](https://github.com/ros-industrial/abb/tree/kinetic-devel/abb_driver): ROS industrial abb package for downloading joint space trajectories to IRC5 controller 
 
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
