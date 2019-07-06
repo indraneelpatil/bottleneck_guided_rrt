@@ -22,7 +22,7 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 ### Training :
 
 * Since data was limited for our prediction task, we have used transfer learning from a pre trained VoxNet trained on the Sydney Urban Objects Dataset.
-* Our manually labelled dataset in the labelled dataset folder consists of 200 data samples collected using a 10% Goal Biased RRT* on different hand engineered environments.
+* Our manually labelled dataset in the labelled_data folder consists of 200 data samples collected using a 10% Goal Biased RRT* on different hand engineered environments, where inputs are the voxelized environments, start and end points are 1D arrays of 3D points generated using rviz and outputs are the 1D arrays of three bottleneck points each.
 
 ## RRT* Implementation Details 
 * [FCL](https://github.com/flexible-collision-library/fcl) : Collision Checking with environment
@@ -36,7 +36,6 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 *  [abb_driver](https://github.com/ros-industrial/abb/tree/kinetic-devel/abb_driver): ROS industrial abb package for downloading joint space trajectories to IRC5 controller 
 
 ## Instructions 
-* The labelled data which was used for transfer learning from the VoxNet is in the labelled_data folder where inputs are the voxelized environments, start and end points are 1D arrays of 3D points generated using rviz and outputs are the 1D array of three bottleneck points generated using a basic 10% goal biased RRT*
 * The Robot, motion planning markers and the Octomap environment can be visualized in rviz and moveit_cartesian_plan_plugin can be used to select the start and endpoints by using :
 ```bash
 roslaunch abb_1410_moveit_config moveit_planning_execution.launch
