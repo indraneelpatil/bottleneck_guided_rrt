@@ -35,6 +35,20 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 * [moveit cartesian plan plugin](https://github.com/ros-industrial-consortium/fermi/tree/hydro-devel): For taking user input for 3D start and end points in rviz
 *  [abb_driver](https://github.com/ros-industrial/abb/tree/kinetic-devel/abb_driver): ROS industrial abb package for downloading joint space trajectories to IRC5 controller 
 
+## Instructions 
+* The labelled data which was used for transfer learning from the VoxNet is in the labelled_data folder where inputs are the voxelized environments, start and end points are 1D arrays of 3D points generated using rviz and outputs are the 1D array of three bottleneck points generated using a basic 10% goal biased RRT*
+* The Robot, motion planning markers and the Octomap environment can be visualized in rviz and moveit_cartesian_plan_plugin can be used to select the start and endpoints by using :
+```bash
+roslaunch abb_1410_moveit_config moveit_planning_execution.launch
+```
+* The main ROS package is called abb_manipulator since all experiments were conducted on the ABB 1410 welding robot, all the above listed packages in RRT* implementation details appear as dependencies in the CMakeList.txt file and must be compiled in your workspace
+* The bottleneck guided RRT* and other variations of RRT can be found in abb_manipulator/src folder and can be executed using
+```bash
+rosrun abb_manipulator rrt_star_milestones
+```
+But our motion planner will not start searching until it has received the start, end points from rviz, octomap environment and the milestone points from the 3D CNN
+
+
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
   <img src='images/random exploration.png' width='800px' align='centre'>
