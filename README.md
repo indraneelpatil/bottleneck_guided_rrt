@@ -75,6 +75,8 @@ rosrun abb_manipulator cart_to_joint
 </div>
 
 ## References 
+* [RRT](https://skat.ihmc.us/rid=1K7WQT337-XQJP8C-1YHM/Randomized%20Kinodynamic%20Planning.pdf)
+* [RRT*](https://arxiv.org/pdf/1105.1186.pdf)
 * [Execution Extended RRT](https://link.springer.com/content/pdf/10.1007/978-3-540-45135-8_23.pdf)
 * [Synchronized Greedy Biased RRT](https://link.springer.com/content/pdf/10.1007/s12555-011-0417-7.pdf)
 
