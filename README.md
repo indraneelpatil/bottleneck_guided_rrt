@@ -34,6 +34,7 @@ Video demo of this work is available at : https://www.youtube.com/watch?v=28sW9m
 * [ROS](https://github.com/ros): rviz visualization and sensor data acquisition
 * [moveit cartesian plan plugin](https://github.com/ros-industrial-consortium/fermi/tree/hydro-devel): For taking user input for 3D start and end points in rviz
 *  [abb_driver](https://github.com/ros-industrial/abb/tree/kinetic-devel/abb_driver): ROS industrial abb package for downloading joint space trajectories to IRC5 controller 
+* [iai_kinect2](https://github.com/code-iai/iai_kinect2) This ROS package is used to acquire point cloud data from xbox one Kinect V2
 
 ## Instructions 
 * The Robot, motion planning markers and the Octomap environment can be visualized in rviz and moveit_cartesian_plan_plugin can be used to select the start and endpoints by using :
@@ -46,7 +47,18 @@ roslaunch abb_1410_moveit_config moveit_planning_execution.launch
 rosrun abb_manipulator rrt_star_milestones
 ```
 But our motion planner will not start searching until it has received the start, end points from rviz, octomap environment and the milestone points from the 3D CNN
-
+* To enable data acquisition from the kinect (this code is not written by us)
+```bash
+roslaunch kinect2_bridge kinect2_bridge.launch
+```
+* Preprocessing of the point cloud and self identification 
+```bash
+rosrun kinect2_viewer abb_sense
+```
+* Voxelization of the processed point cloud, prediction of bottleneck points using our pre-trained multi input single output CNN model and publishing these points to our motion planner
+```bash
+rosrun abb_manipulator rrt_multiinput_prediction.py
+```
 
 ## Comparison of traditional fixed heuristic RRT planners 
 <div align='centre'>
